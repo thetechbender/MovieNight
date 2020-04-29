@@ -3,6 +3,7 @@ version: '2'
 services:
   movienight:
     image: movienight:latest
+    restart: always
     build:
       context: ../
       dockerfile: Dockerfile
